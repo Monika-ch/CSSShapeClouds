@@ -1,0 +1,607 @@
+body {
+  margin: 20px 100px;
+  background-image: linear-gradient(315deg, grey, black);
+}
+
+.shapes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.semi-c1 {
+  height: 150px;
+  width: 100px;
+  border-left: 100px rgb(140, 196, 197) solid;
+  border-radius: 50%;
+}
+
+.semi-c2 {
+  height: 150px;
+  width: 100px;
+  border-right: 100px rgb(140, 196, 197) solid;
+  border-radius: 50%;
+  margin-left: -170px;
+  margin-top: 50px;
+}
+
+.semi-c3 {
+  height: 150px;
+  width: 100px;
+  border-top: 100px rgb(140, 196, 197) solid;
+  border-radius: 50%;
+}
+
+.semi-c4 {
+  height: 150px;
+  width: 100px;
+  border-bottom: 100px rgb(140, 196, 197) solid;
+  border-radius: 50%;
+}
+
+.semi-c5 {
+  height: 100px;
+  width: 150px;
+  border-top: 100px rgb(140, 196, 197) solid;
+  border-radius: 50%;
+}
+
+.semi-c6 {
+  height: 100px;
+  width: 150px;
+  border-bottom: 100px rgb(140, 196, 197) solid;
+  border-radius: 50%;
+}
+
+.semi-c7 {
+  height: 100px;
+  width: 150px;
+  border-left: 100px rgb(140, 196, 197) solid;
+  border-radius: 50%;
+}
+
+.semi-c8 {
+  height: 100px;
+  width: 150px;
+  border-right: 100px rgb(140, 196, 197) solid;
+  border-radius: 50%;
+  margin-left: -250px;
+  margin-top: 100px;
+}
+
+.semi-c9 {
+  height: 110px;
+  width: 110px;
+  background: rgb(140, 196, 197);
+  margin: 0 10px;
+  border-top-right-radius: 150px;
+  border-top-left-radius: 150px;
+}
+
+.semi-c10 {
+  height: 120px;
+  width: 120px;
+  background: rgb(140, 196, 197);
+  margin: 110px -10px;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
+}
+
+.cir1 {
+  height: 150px;
+  width: 150px;
+  background: palegreen;
+  border-radius: 50%;
+}
+
+.cir2 {
+  height: 150px;
+  width: 200px;
+  background: pink;
+  border-radius: 50%;
+  margin: 50px 0;
+}
+
+.cir3 {
+  height: 200px;
+  width: 150px;
+  background: powderblue;
+  border-radius: 50%;
+  margin: 50px 0;
+}
+
+.cir4 {
+  height: 150px;
+  width: 200px;
+  background: plum;
+  border-radius: 50%;
+  margin: 50px 0;
+  transform: skew(-25deg);
+}
+
+.cir5 {
+  height: 150px;
+  width: 200px;
+  background: burlywood;
+  border-radius: 50%;
+  margin: 50px 0;
+  transform: skew(25deg);
+}
+
+.tri1 {
+  height: 0;
+  width: 0;
+  margin: 25px 0;
+  border-bottom: 150px rgb(140, 196, 197) solid;
+  border-left: 100px transparent solid;
+  border-right: 100px transparent solid;
+}
+
+.tri2 {
+  height: 0;
+  width: 0;
+  margin: -25px -100px;
+  border-top: 150px turquoise solid;
+  border-left: 100px transparent solid;
+  border-right: 100px transparent solid;
+}
+
+.tri3 {
+  height: 0;
+  width: 0;
+  margin: 50px 0;
+  border-top: 100px transparent solid;
+  border-bottom: 100px transparent solid;
+  border-right: 150px rgb(235, 167, 142) solid;
+}
+
+.tri4 {
+  height: 0;
+  width: 0;
+  margin: -5px 25px;
+  border-top: 100px transparent solid;
+  border-bottom: 100px transparent solid;
+  border-left: 150px rgb(166, 140, 190) solid;
+}
+
+.tri5 {
+  height: 0;
+  width: 0;
+  margin: -75px 0;
+  border-top: 100px transparent solid;
+  border-bottom: 100px transparent solid;
+  border-right: 150px rgb(235, 167, 142) solid;
+  transform: skew(25deg);
+}
+
+.tri6 {
+  height: 0;
+  width: 0;
+  margin: -35px 0 25px 50px;
+  border-top: 100px transparent solid;
+  border-bottom: 100px transparent solid;
+  border-left: 150px rgb(166, 140, 190) solid;
+  transform: skew(25deg);
+}
+
+.tri7 {
+  height: 0;
+  width: 0;
+  margin: 55px 210px 25px -400px;
+  border-bottom: 150px rgb(140, 196, 197) solid;
+  border-left: 100px transparent solid;
+  border-right: 100px transparent solid;
+  transform: skew(25deg, -25deg);
+}
+
+.tri8 {
+  height: 0;
+  width: 0;
+  margin: 55px 0;
+  border-top: 150px turquoise solid;
+  border-left: 100px transparent solid;
+  border-right: 100px transparent solid;
+  transform: skew(25deg, -25deg);
+}
+
+.tri9 {
+  height: 0;
+  width: 0;
+  margin: 45px 0;
+  border-top: 150px transparent solid;
+  border-left: 150px rgb(145, 255, 0) solid;
+}
+
+.tri10 {
+  height: 0;
+  width: 0;
+  margin: -25px 25px -25px -190px;
+  border-bottom: 150px transparent solid;
+  border-right: 150px rgb(219, 118, 118) solid;
+}
+
+.tri11 {
+  height: 0;
+  width: 0;
+  margin: -25px 5px -25px -5px;
+  border-bottom: 150px transparent solid;
+  border-left: 150px rgb(146, 226, 146) solid;
+}
+
+.tri12 {
+  height: 0;
+  width: 0;
+  margin: 5px 25px -25px -170px;
+  border-top: 150px transparent solid;
+  border-right: 150px rgb(243, 243, 141) solid;
+}
+
+.ran1 {
+  height: 0;
+  width: 0;
+  border-bottom: 100px black solid;
+  border-right: 100px black solid;
+  border-left: 100px greenyellow solid;
+  border-top: 100px greenyellow solid;
+  margin: 50px 25px;
+}
+
+.ran2 {
+  height: 0;
+  width: 0;
+  border-bottom: 100px black solid;
+  border-left: 100px black solid;
+  border-right: 100px blue solid;
+  border-top: 100px blue solid;
+  margin: 50px 25px;
+}
+
+.ran3 {
+  height: 0;
+  width: 0;
+  border-bottom: 100px black solid;
+  border-right: 100px blue solid;
+  border-left: 100px greenyellow solid;
+  border-top: 100px greenyellow solid;
+  margin: 50px 25px;
+}
+
+.ran4 {
+  height: 0;
+  width: 0;
+  border-bottom: 100px blue solid;
+  border-right: 100px black solid;
+  border-left: 100px greenyellow solid;
+  border-top: 100px greenyellow solid;
+  margin: 50px 25px;
+}
+
+.ran5 {
+  height: 0;
+  width: 0;
+  border-bottom: 100px blue solid;
+  border-right: 100px blue solid;
+  border-left: 100px greenyellow solid;
+  border-top: 100px black solid;
+  margin: 50px 25px;
+}
+
+.ran6 {
+  height: 0;
+  width: 0;
+  border-bottom: 100px blue solid;
+  border-right: 100px blue solid;
+  border-left: 100px black solid;
+  border-top: 100px greenyellow solid;
+  margin: 50px 25px;
+}
+
+
+.ran7 {
+  height: 0;
+  width: 0;
+  border: 100px black solid;
+  border-left: 100px red solid;
+  margin: 50px 25px;
+}
+
+.ran8 {
+  height: 0;
+  width: 0;
+  border: 100px black solid;
+  border-bottom: 100px blue solid;
+  margin: 50px 25px;
+}
+
+.ran9 {
+  height: 0;
+  width: 0;
+  border: 100px black solid;
+  border-right: 100px green solid;
+  margin: 50px 25px;
+}
+
+.ran10 {
+  height: 0;
+  width: 0;
+  border: 100px black solid;
+  border-top: 100px yellow solid;
+  margin: 50px 25px;
+}
+
+.ran11 {
+  height: 0;
+  width: 0;
+  border-bottom: 100px blue solid;
+  border-left: 100px red solid;
+  border-right: 100px green solid;
+  border-top: 100px yellow solid;
+  margin: 50px 0;
+}
+
+.ran12 {
+  height: 100px;
+  width: 100px;
+  border-bottom: 50px blue solid;
+  border-left: 50px red solid;
+  border-right: 50px green solid;
+  border-top: 50px yellow solid;
+  background: grey;
+  margin: 50px 25px;
+}
+
+.ran13 {
+  height: 110px;
+  width: 110px;
+  border-bottom: 50px blue solid;
+  border-left: 50px red solid;
+  border-right: 50px green solid;
+  border-top: 50px yellow solid;
+  background: grey;
+  margin: 50px 0;
+  border-radius: 50%;
+}
+
+.par1 {
+  height: 170px;
+  width: 170px;
+  background: red;
+  margin: 85px 25px;
+}
+
+.par2 {
+  height: 150px;
+  width: 220px;
+  background: rgb(3, 248, 3);
+  margin: 10px -15px;
+}
+
+.par3 {
+  height: 150px;
+  width: 200px;
+  background: rgb(248, 3, 134);
+  margin: 50px 35px;
+  transform: skew(-25deg);
+}
+
+.par4 {
+  height: 0;
+  width: 150px;
+  border-bottom: 150px rgb(234, 0, 255) solid;
+  border-left: 100px transparent solid;
+  border-right: 100px transparent solid;
+  margin: 80px -75px;
+}
+
+.par5 {
+  height: 0;
+  width: 150px;
+  border-top: 150px rgb(0, 255, 242) solid;
+  border-left: 100px transparent solid;
+  border-right: 100px transparent solid;
+  margin: 0 -65px;
+}
+
+.par6 {
+  height: 100px;
+  width: 0;
+  border-right: 150px rgb(3, 48, 250) solid;
+  border-top: 80px transparent solid;
+  border-bottom: 80px transparent solid;
+  margin: 95px -60px;
+}
+
+.par7 {
+  height: 100px;
+  width: 0;
+  border-left: 150px rgb(208, 255, 0) solid;
+  border-top: 80px transparent solid;
+  border-bottom: 80px transparent solid;
+  margin: 40px 75px;
+}
+
+.par8 {
+  height: 220px;
+  width: 150px;
+  background: rgb(255, 123, 0);
+  margin: 5px -65px;
+}
+
+.mix1 {
+  height: 150px;
+  width: 100px;
+  border-left: 100px rgb(48, 204, 100) solid;
+  border-radius: 50%;
+  border-top: 80px transparent solid;
+  border-bottom: 80px transparent solid;
+  margin: -100px 5px;
+}
+
+.mix2 {
+  height: 150px;
+  width: 100px;
+  border-right: 100px rgb(185, 11, 107) solid;
+  border-radius: 50%;
+  border-top: 80px transparent solid;
+  border-bottom: 80px transparent solid;
+  margin: -140px 0 0 -190px;
+}
+
+.mix3 {
+  height: 100px;
+  width: 150px;
+  border-top: 100px pink solid;
+  border-radius: 50%;
+  border-left: 80px transparent solid;
+  border-right: 80px transparent solid;
+  margin: -55px -5px;
+}
+
+.mix4 {
+  height: 100px;
+  width: 150px;
+  border-bottom: 100px rgb(255, 253, 133) solid;
+  border-radius: 50%;
+  border-left: 80px transparent solid;
+  border-right: 80px transparent solid;
+  margin: -45px 0 0 -315px;
+}
+
+.mix5 {
+  height: 90px;
+  width: 90px;
+  border-left: 100px rgb(208, 255, 0) solid;
+  border-top: 50px transparent solid;
+  border-bottom: 50px transparent solid;
+  border-radius: 50%;
+  margin: -50px -30px;
+}
+
+.mix6 {
+  height: 80px;
+  width: 80px;
+  border-right: 100px pink solid;
+  border-top: 50px transparent solid;
+  border-bottom: 50px transparent solid;
+  border-radius: 50%;
+  margin: -10px 10px;
+}
+
+.mix7 {
+  height: 90px;
+  width: 90px;
+  border-top: 100px aquamarine solid;
+  border-left: 50px transparent solid;
+  border-right: 50px transparent solid;
+  border-radius: 50%;
+  margin: -70px -20px;
+  transform: rotate(-25deg);
+}
+
+.mix8 {
+  height: 70px;
+  width: 70px;
+  border-bottom: 100px peachpuff solid;
+  border-left: 50px transparent solid;
+  border-right: 50px transparent solid;
+  border-radius: 50%;
+  margin: 0 15px;
+  transform: rotate(-25deg);
+}
+
+.mix9 {
+  height: 130px;
+  width: 130px;
+  background: rgb(3, 248, 3);
+  margin: 0 0px;
+  border-bottom-left-radius: 150px;
+}
+
+.mix10 {
+  height: 140px;
+  width: 140px;
+  background: rgb(3, 248, 248);
+  margin: 20px 10px;
+  border-bottom-right-radius: 150px;
+}
+
+.mix11 {
+  height: 110px;
+  width: 110px;
+  background: rgb(229, 255, 0);
+  margin: -120px 0 50px -250px;
+  border-top-left-radius: 150px;
+}
+
+.mix12 {
+  height: 140px;
+  width: 140px;
+  background: rgb(255, 115, 255);
+  margin: -130px 0 50px 15px;
+  border-top-right-radius: 150px;
+}
+
+.mixes13 {
+  height: 100px;
+  width: 100px;
+  border-left: 50px rgba(3, 169, 244, 0.7) solid;
+  border-right: 50px rgba(233, 30, 99, 0.7) solid;
+  border-top: 50px rgba(244, 67, 54, 0.7) solid;
+  background: palegoldenrod;
+  margin: 50px 0;
+  border-radius: 50%;
+}
+
+.mixes14 {
+  height: 130px;
+  width: 130px;
+  border-bottom: 50px rgba(156, 39, 176, 0.7) solid;
+  border-left: 50px rgba(63, 81, 181, 0.7) solid;
+  border-right: 50px rgba(0, 188, 212, 0.7) solid;
+  background: antiquewhite;
+  margin: 20px 0;
+  border-radius: 50%;
+}
+
+.mixes15 {
+  height: 80px;
+  width: 130px;
+  border-bottom: 50px rgba(0, 150, 136, 0.7) solid;
+  border-right: 50px rgba(76, 175, 80, 0.7) solid;
+  border-top: 50px rgba(205, 220, 57, 0.7) solid;
+  background: rgb(255, 208, 216);
+  margin: 60px -5px;
+  border-radius: 50%;
+}
+
+.mixes16 {
+  height: 80px;
+  width: 130px;
+  border-bottom: 50px rgb(170, 170, 255) solid;
+  border-left: 50px rgb(163, 66, 255) solid;
+  border-top: 50px rgb(216, 3, 216) solid;
+  background: azure;
+  margin: 45px 0;
+  border-radius: 50%;
+}
+
+.mixes17 {
+  height: 95px;
+  width: 195px;
+  border-bottom: 50px #80d8ff solid;
+  border-top: 50px rgba(255, 152, 0, 0.7)solid;
+  background: #ffccbc;
+  margin: 20px 0;
+  border-radius: 50%;
+  transform: rotate(90deg);
+}
+
+.mixes18 {
+  height: 200px;
+  width: 180px;
+  border-left: 70px rgb(170, 245, 255) solid;
+  border-right: 40px rgb(232, 255, 251) solid;
+  background: rgb(185, 126, 180);
+  margin: 50px 0;
+  border-radius: 50%;
+  transform: rotate(-10deg);
+}
